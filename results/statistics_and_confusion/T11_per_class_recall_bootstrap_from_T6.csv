@@ -1,0 +1,55 @@
+﻿model,scope,class,support_events,recall_pct,bootstrap_ci_low_pct,bootstrap_ci_high_pct,bootstrap_B,bootstrap_strata
+1D-CNN,Avg7,coal,700,69.714286,66.285714,73.0,5000,seed+scenario within class
+1D-CNN,Avg7,gangue,770,70.12987,67.012987,73.246753,5000,seed+scenario within class
+1D-CNN,Avg7,empty,630,77.301587,74.126984,80.31746,5000,seed+scenario within class
+1D-CNN,S6,coal,100,60.0,50.0,69.0,5000,seed within class
+1D-CNN,S6,gangue,110,66.363636,57.272727,74.545455,5000,seed within class
+1D-CNN,S6,empty,90,75.555556,66.666667,83.333333,5000,seed within class
+Bi-Mamba,Avg7,coal,700,88.142857,85.714286,90.428571,5000,seed+scenario within class
+Bi-Mamba,Avg7,gangue,770,88.831169,86.623377,90.909091,5000,seed+scenario within class
+Bi-Mamba,Avg7,empty,630,92.539683,90.47619,94.444444,5000,seed+scenario within class
+Bi-Mamba,S6,coal,100,86.0,79.0,92.0,5000,seed within class
+Bi-Mamba,S6,gangue,110,80.909091,73.636364,87.272727,5000,seed within class
+Bi-Mamba,S6,empty,90,93.333333,87.777778,97.777778,5000,seed within class
+HMBCNN-style,Avg7,coal,700,86.714286,84.285714,89.0,5000,seed+scenario within class
+HMBCNN-style,Avg7,gangue,770,84.935065,82.337662,87.272727,5000,seed+scenario within class
+HMBCNN-style,Avg7,empty,630,90.793651,88.571429,92.857143,5000,seed+scenario within class
+HMBCNN-style,S6,coal,100,82.0,74.0,89.0,5000,seed within class
+HMBCNN-style,S6,gangue,110,80.0,72.727273,86.363636,5000,seed within class
+HMBCNN-style,S6,empty,90,87.777778,81.111111,93.333333,5000,seed within class
+MCNN-BiLSTM,Avg7,coal,700,81.285714,78.428571,84.003571,5000,seed+scenario within class
+MCNN-BiLSTM,Avg7,gangue,770,78.961039,76.233766,81.818182,5000,seed+scenario within class
+MCNN-BiLSTM,Avg7,empty,630,86.349206,83.809524,88.888889,5000,seed+scenario within class
+MCNN-BiLSTM,S6,coal,100,77.0,69.0,85.0,5000,seed within class
+MCNN-BiLSTM,S6,gangue,110,72.727273,64.545455,80.909091,5000,seed within class
+MCNN-BiLSTM,S6,empty,90,82.222222,74.444444,90.0,5000,seed within class
+Plain Mamba,Avg7,coal,700,85.285714,82.714286,87.714286,5000,seed+scenario within class
+Plain Mamba,Avg7,gangue,770,87.792208,85.584416,90.0,5000,seed+scenario within class
+Plain Mamba,Avg7,empty,630,91.904762,89.84127,93.809524,5000,seed+scenario within class
+Plain Mamba,S6,coal,100,78.0,70.0,85.0,5000,seed within class
+Plain Mamba,S6,gangue,110,83.636364,77.272727,90.0,5000,seed within class
+Plain Mamba,S6,empty,90,90.0,83.333333,95.555556,5000,seed within class
+RAAF-BiPAC-Mamba,Avg7,coal,700,92.0,90.0,93.857143,5000,seed+scenario within class
+RAAF-BiPAC-Mamba,Avg7,gangue,770,92.857143,91.038961,94.545455,5000,seed+scenario within class
+RAAF-BiPAC-Mamba,Avg7,empty,630,95.714286,94.126984,97.142857,5000,seed+scenario within class
+RAAF-BiPAC-Mamba,S6,coal,100,88.0,82.0,94.0,5000,seed within class
+RAAF-BiPAC-Mamba,S6,gangue,110,87.272727,80.909091,92.727273,5000,seed within class
+RAAF-BiPAC-Mamba,S6,empty,90,96.666667,93.333333,100.0,5000,seed within class
+ResNet/TCN,Avg7,coal,700,72.714286,69.428571,75.857143,5000,seed+scenario within class
+ResNet/TCN,Avg7,gangue,770,72.987013,70.0,75.974026,5000,seed+scenario within class
+ResNet/TCN,Avg7,empty,630,81.111111,78.095238,83.968254,5000,seed+scenario within class
+ResNet/TCN,S6,coal,100,70.0,61.0,79.0,5000,seed within class
+ResNet/TCN,S6,gangue,110,67.272727,59.090909,75.454545,5000,seed within class
+ResNet/TCN,S6,empty,90,74.444444,65.555556,82.222222,5000,seed within class
+TFFNet-style,Avg7,coal,700,82.285714,79.571429,85.142857,5000,seed+scenario within class
+TFFNet-style,Avg7,gangue,770,83.506494,80.909091,85.974026,5000,seed+scenario within class
+TFFNet-style,Avg7,empty,630,90.793651,88.571429,92.857143,5000,seed+scenario within class
+TFFNet-style,S6,coal,100,75.0,67.0,83.0,5000,seed within class
+TFFNet-style,S6,gangue,110,80.909091,73.636364,88.181818,5000,seed within class
+TFFNet-style,S6,empty,90,85.555556,78.888889,92.222222,5000,seed within class
+Transformer,Avg7,coal,700,76.142857,73.139286,79.0,5000,seed+scenario within class
+Transformer,Avg7,gangue,770,74.935065,72.077922,77.922078,5000,seed+scenario within class
+Transformer,Avg7,empty,630,85.873016,83.333333,88.571429,5000,seed+scenario within class
+Transformer,S6,coal,100,66.0,57.0,75.0,5000,seed within class
+Transformer,S6,gangue,110,73.636364,65.454545,81.818182,5000,seed within class
+Transformer,S6,empty,90,82.222222,74.444444,90.0,5000,seed within class

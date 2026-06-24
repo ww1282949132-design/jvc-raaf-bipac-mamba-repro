@@ -1,0 +1,6 @@
+﻿variant,params_m,trainable_params_m,flops_g,vram_mb,latency_ms,device,batch_size,input_length,precision,profiling_tool,flops_definition,notes
+1D-CNN+DANN,0.084,0.084,0.026,166.4,0.92,RTX 2080Ti,1,2048,FP32,torch profiler + fvcore,"FLOPs, batch=1 forward inference",domain head excluded during inference
+Transformer+DANN,0.218,0.218,0.087,286.7,2.64,RTX 2080Ti,1,2048,FP32,torch profiler + fvcore,"FLOPs, batch=1 forward inference",compact transformer control
+Bi-Mamba+DANN,0.181,0.181,0.06,270.3,2.08,RTX 2080Ti,1,2048,FP32,torch profiler + fvcore,"FLOPs, batch=1 forward inference",Bi-Mamba plus lightweight domain head
+Bi-Mamba+ordinary learnable gate+DANN,0.187,0.187,0.061,276.2,2.16,RTX 2080Ti,1,2048,FP32,torch profiler + fvcore,"FLOPs, batch=1 forward inference",small additional gate MLP
+Bi-Mamba+raw-roughness input without PAC,0.184,0.184,0.06,273.8,2.12,RTX 2080Ti,1,2048,FP32,torch profiler + fvcore,"FLOPs, batch=1 forward inference",raw roughness scalar adds negligible inference cost

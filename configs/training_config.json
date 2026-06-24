@@ -1,0 +1,39 @@
+{
+  "model": "RAAF-BiPAC-Mamba",
+  "input_channels": 2,
+  "window_length": 2048,
+  "model_dimension": 64,
+  "mamba_expansion_ratio": 2,
+  "optimizer": "AdamW",
+  "initial_learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "scheduler": {
+    "name": "OneCycleLR",
+    "pct_start": 0.4
+  },
+  "epochs": 100,
+  "batch_size": 32,
+  "label_smoothing": 0.05,
+  "loss_weights": {
+    "lambda_aux": 0.05,
+    "lambda_PAC": 0.02
+  },
+  "PAC": {
+    "warmup_epoch": 25,
+    "default_k": 0.5
+  },
+  "GRL": {
+    "max_weight": 0.3
+  },
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "checkpoint_rule": "validation-only best checkpoint; test set not used for checkpoint selection",
+  "normalization": "train-only mean/std",
+  "release_note": "This file records the training settings needed to interpret the released results. Internal training infrastructure and private checkpoints are not included in the public package."
+}
+

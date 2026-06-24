@@ -1,0 +1,16 @@
+﻿check,passed,value
+row_count_total,True,300
+row_count_raaf,True,150
+row_count_hmbcnn,True,150
+duplicate_model_seed_heldout_event_id,True,0
+bad_group_counts,True,0
+bad_class_counts_or_labels,True,0
+bad_window_count,True,0
+bad_group_overlap,True,0
+probability_out_of_range_rows,True,0
+probability_sum_max_error_below_1e-6,True,1.00e-10
+argmax_errors,True,0
+paired_event_id_sets_by_seed,True,0
+paired_split_hash_by_seed_event,True,0
+confusion_matrix_closure,True,0
+source_T8_group_lonso_S6_rows,True,/mnt/data/t8_pac_controls_package_v4_frozen_aligned/T8_pac_control_event_predictions_v4_frozen_aligned.csv

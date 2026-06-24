@@ -1,0 +1,3 @@
+﻿Protocol,Model,Events,Confusion matrix C/G/E rows,Acc.,Coal recall,Gangue recall,Empty recall,Coal-gangue-only Acc.
+Group-LONSO-S6,RAAF-BiPAC-Mamba / PAC+GRL full,150,"[36,12,2]; [9,43,3]; [0,4,41]",80.0,72.0,78.18,91.11,75.24
+Group-LONSO-S6,HMBCNN-style,150,"[34,13,3]; [10,40,5]; [2,4,39]",75.33,68.0,72.73,86.67,70.48

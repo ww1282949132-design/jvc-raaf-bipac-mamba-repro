@@ -1,0 +1,25 @@
+﻿check,passed,value
+prediction_row_count,True,10500
+config_row_count,True,5
+profile_row_count,True,5
+variant_set_config,True,"['1D-CNN+DANN', 'Bi-Mamba+DANN', 'Bi-Mamba+ordinary learnable gate+DANN', 'Bi-Mamba+raw-roughness input without PAC', 'Transformer+DANN']"
+variant_set_profile,True,"['1D-CNN+DANN', 'Bi-Mamba+DANN', 'Bi-Mamba+ordinary learnable gate+DANN', 'Bi-Mamba+raw-roughness input without PAC', 'Transformer+DANN']"
+1D-CNN+DANN_row_count,True,2100
+Transformer+DANN_row_count,True,2100
+Bi-Mamba+DANN_row_count,True,2100
+Bi-Mamba+ordinary learnable gate+DANN_row_count,True,2100
+Bi-Mamba+raw-roughness input without PAC_row_count,True,2100
+duplicate_keys,True,0
+bad_group_counts,True,0
+bad_class_counts,True,0
+bad_event_id_sets,True,0
+bad_label_vs_manifest,True,0
+bad_split_hash,True,0
+bad_window_count,True,0
+probability_out_of_range_rows,True,0
+probability_sum_max_error_below_1e-6,True,2.22e-16
+argmax_errors,True,0
+CI_uses_t9_2_262,True,t(9)=2.262
+profile_numeric_constraints,True,0
+variant_order_avg_acc,True,"{'1D-CNN+DANN': 72.05, 'Transformer+DANN': 80.52, 'Bi-Mamba+DANN': 90.05, 'Bi-Mamba+ordinary learnable gate+DANN': 91.43, 'Bi-Mamba+raw-roughness input without PAC': 92.95}"
+S6_lower_than_Avg7_all_variants,True,all variants

@@ -1,0 +1,33 @@
+﻿check,passed,value
+prediction_row_count,True,21000
+event_disjoint_rows,True,7350
+group_lonso_rows,True,7350
+heldout_overlay_rows,True,6300
+config_row_count,True,21
+summary_row_count,True,21
+duplicate_primary_key_errors,True,0
+bad_group_counts_or_event_sets,True,0
+bad_class_counts,True,0
+bad_label_vs_manifest,True,0
+bad_window_count,True,0
+bad_group_overlap,True,0
+probability_out_of_range_rows,True,0
+probability_sum_max_error_below_1e-6,True,1.00e-10
+argmax_errors,True,0
+CI_uses_t4_2_776,True,t(4)=2.776
+PAC_GRL_full_event_disjoint_row_value_mismatch_vs_T6,True,0
+PAC_GRL_full_event_disjoint_eventset_mismatch_vs_T6,True,0
+PAC_GRL_full_event_disjoint_split_hash_mismatch_vs_T6,True,0
+T6_source_file,True,/mnt/data/t6_complete_math_results/event_predictions_9models_10seeds_complete.csv
+T6_source_seeds42_46_Avg7_S6,True,93.62/91.33
+event_disjoint_full_above_pac_grl,True,"full=93.62, pac=90.67, grl=92.48"
+event_disjoint_shuffled_below_full,True,"shuffled=84.29, full=93.62"
+event_disjoint_raw_roughness_not_close_to_full,True,"raw=72.19, full=93.62"
+group_lonso_full_above_pac_grl,True,"full=86.1, pac=82.48, grl=80.1"
+group_lonso_shuffled_below_full,True,"shuffled=78.67, full=86.1"
+group_lonso_raw_roughness_not_close_to_full,True,"raw=68.0, full=86.1"
+heldout_overlay_full_above_pac_grl,True,"full=91.56, pac=88.56, grl=84.78"
+heldout_overlay_shuffled_below_full,True,"shuffled=81.67, full=91.56"
+heldout_overlay_raw_roughness_not_close_to_full,True,"raw=70.78, full=91.56"
+event_disjoint_S6_full_above_GRL_and_PAC,True,"full=91.33, grl=89.33, pac=87.33"
+GRL_only_event_disjoint_close_to_frozen_ablation_no_PAC,True,92.48/89.33

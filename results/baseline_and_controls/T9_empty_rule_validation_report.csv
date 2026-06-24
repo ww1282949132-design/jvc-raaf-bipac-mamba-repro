@@ -1,0 +1,16 @@
+﻿check,passed,value
+prediction_row_count,True,3000
+event_disjoint_rows,True,1050
+group_lonso_rows,True,1050
+heldout_overlay_rows,True,900
+config_row_count,True,1
+duplicate_primary_key_errors,True,0
+bad_group_counts_event_sets_or_split_hash,True,0
+bad_class_counts,True,0
+bad_label_values,True,0
+bad_window_count,True,0
+bad_group_overlap,True,0
+probability_out_of_range_rows,True,0
+probability_sum_max_error_below_1e-6,True,1.11e-16
+argmax_errors,True,0
+CI_uses_t4_2_776,True,t(4)=2.776

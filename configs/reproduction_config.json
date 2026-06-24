@@ -1,0 +1,89 @@
+{
+  "dataset_name": "RAAF-BiPAC-Mamba public reproducibility sample",
+  "public_release_scope": "representative controlled-platform clean events plus reproducibility artifacts; not the complete raw field dataset",
+  "classes": [
+    "coal",
+    "gangue",
+    "empty"
+  ],
+  "channels": 2,
+  "sampling_frequency_hz": 22050,
+  "window_length": 2048,
+  "window_step": 1024,
+  "clean_event_rows": 20000,
+  "clean_windows_per_event": 18,
+  "clean_event_counts": {
+    "coal": 49,
+    "gangue": 57,
+    "empty": 42,
+    "total": 148
+  },
+  "clean_window_counts": {
+    "coal": 882,
+    "gangue": 1026,
+    "empty": 756,
+    "total": 2664
+  },
+  "scenario_definitions": {
+    "S0": {
+      "description": "clean signal",
+      "audio_noise": null,
+      "vibration_noise": null
+    },
+    "S1": {
+      "description": "audio-channel equipment-noise overlay",
+      "audio_noise_snr_db": -3,
+      "vibration_noise": null
+    },
+    "S2": {
+      "description": "vibration-channel equipment-noise overlay",
+      "audio_noise": null,
+      "vibration_noise_snr_db": -3
+    },
+    "S3": {
+      "description": "audio and vibration equipment-noise overlay",
+      "audio_noise_snr_db": -3,
+      "vibration_noise_snr_db": -3
+    },
+    "S4": {
+      "description": "severe audio-channel equipment-noise overlay",
+      "audio_noise_snr_db": -6,
+      "vibration_noise": null
+    },
+    "S5": {
+      "description": "severe vibration-channel equipment-noise overlay",
+      "audio_noise": null,
+      "vibration_noise_snr_db": -6
+    },
+    "S6": {
+      "description": "severe audio and vibration equipment-noise overlay",
+      "audio_noise_snr_db": -6,
+      "vibration_noise_snr_db": -6
+    }
+  },
+  "primary_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "extended_result_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "notes": [
+    "The full raw equipment-noise recordings are restricted and are not included in this public package.",
+    "Released prediction CSVs and validation reports support metric reconstruction for the manuscript tables.",
+    "The clean public sample demonstrates file format, windowing, class labels, and split logic."
+  ]
+}
+

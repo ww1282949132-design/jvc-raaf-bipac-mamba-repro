@@ -1,0 +1,33 @@
+﻿comparison,baseline,scope,metric,n_pairs,ours_pct,baseline_pct,diff_pp,paired_bootstrap_ci_low_pp,paired_bootstrap_ci_high_pp,mcnemar_ours_correct_baseline_wrong,mcnemar_ours_wrong_baseline_correct,mcnemar_exact_p,bootstrap_B,bootstrap_strata
+RAAF-BiPAC-Mamba vs 1D-CNN,1D-CNN,Avg7,Event accuracy,2100,93.428571,72.142857,21.285714,19.238095,23.429762,548,101,3.268263394400944e-75,5000,seed+scenario+class
+RAAF-BiPAC-Mamba vs 1D-CNN,1D-CNN,Avg7,Event macro-F1,2100,93.587922,72.611559,20.976363,18.955954,23.111289,,,,5000,seed+scenario+class
+RAAF-BiPAC-Mamba vs 1D-CNN,1D-CNN,S6,Event accuracy,300,90.333333,67.0,23.333333,17.0,29.333333,90,20,8.637551655996454e-12,5000,seed+class
+RAAF-BiPAC-Mamba vs 1D-CNN,1D-CNN,S6,Event macro-F1,300,90.548616,67.54446,23.004156,16.807183,28.897164,,,,5000,seed+class
+RAAF-BiPAC-Mamba vs ResNet/TCN,ResNet/TCN,Avg7,Event accuracy,2100,93.428571,75.333333,18.095238,16.0,20.142857,484,104,1.5537436394090105e-59,5000,seed+scenario+class
+RAAF-BiPAC-Mamba vs ResNet/TCN,ResNet/TCN,Avg7,Event macro-F1,2100,93.587922,75.854183,17.733739,15.708406,19.710152,,,,5000,seed+scenario+class
+RAAF-BiPAC-Mamba vs ResNet/TCN,ResNet/TCN,S6,Event accuracy,300,90.333333,70.333333,20.0,14.0,26.0,79,19,7.127385901074282e-10,5000,seed+class
+RAAF-BiPAC-Mamba vs ResNet/TCN,ResNet/TCN,S6,Event macro-F1,300,90.548616,70.908312,19.640304,13.733733,25.562651,,,,5000,seed+class
+RAAF-BiPAC-Mamba vs Transformer,Transformer,Avg7,Event accuracy,2100,93.428571,78.619048,14.809524,12.808333,16.809524,424,113,2.5238832753661607e-43,5000,seed+scenario+class
+RAAF-BiPAC-Mamba vs Transformer,Transformer,Avg7,Event macro-F1,2100,93.587922,79.086703,14.501219,12.520884,16.471837,,,,5000,seed+scenario+class
+RAAF-BiPAC-Mamba vs Transformer,Transformer,S6,Event accuracy,300,90.333333,73.666667,16.666667,10.666667,23.0,75,25,5.636282034205402e-07,5000,seed+class
+RAAF-BiPAC-Mamba vs Transformer,Transformer,S6,Event macro-F1,300,90.548616,74.194834,16.353782,10.424716,22.469382,,,,5000,seed+class
+RAAF-BiPAC-Mamba vs MCNN-BiLSTM,MCNN-BiLSTM,Avg7,Event accuracy,2100,93.428571,81.952381,11.47619,9.619048,13.380952,353,112,4.080621421352818e-30,5000,seed+scenario+class
+RAAF-BiPAC-Mamba vs MCNN-BiLSTM,MCNN-BiLSTM,Avg7,Event macro-F1,2100,93.587922,82.31914,11.268782,9.444846,13.122606,,,,5000,seed+scenario+class
+RAAF-BiPAC-Mamba vs MCNN-BiLSTM,MCNN-BiLSTM,S6,Event accuracy,300,90.333333,77.0,13.333333,7.666667,18.666667,61,21,1.1296023055413022e-05,5000,seed+class
+RAAF-BiPAC-Mamba vs MCNN-BiLSTM,MCNN-BiLSTM,S6,Event macro-F1,300,90.548616,77.245243,13.303373,7.759188,18.608367,,,,5000,seed+class
+RAAF-BiPAC-Mamba vs TFFNet-style,TFFNet-style,Avg7,Event accuracy,2100,93.428571,85.285714,8.142857,6.285714,9.952381,292,121,2.0776751959355218e-17,5000,seed+scenario+class
+RAAF-BiPAC-Mamba vs TFFNet-style,TFFNet-style,Avg7,Event macro-F1,2100,93.587922,85.523917,8.064005,6.265231,9.822277,,,,5000,seed+scenario+class
+RAAF-BiPAC-Mamba vs TFFNet-style,TFFNet-style,S6,Event accuracy,300,90.333333,80.333333,10.0,4.333333,15.666667,54,24,0.0009010035205219422,5000,seed+class
+RAAF-BiPAC-Mamba vs TFFNet-style,TFFNet-style,S6,Event macro-F1,300,90.548616,80.68541,9.863206,4.414243,15.378652,,,,5000,seed+class
+RAAF-BiPAC-Mamba vs HMBCNN-style,HMBCNN-style,Avg7,Event accuracy,2100,93.428571,87.285714,6.142857,4.380952,7.904762,252,123,2.4655524377765227e-11,5000,seed+scenario+class
+RAAF-BiPAC-Mamba vs HMBCNN-style,HMBCNN-style,Avg7,Event macro-F1,2100,93.587922,87.524694,6.063228,4.310906,7.794735,,,,5000,seed+scenario+class
+RAAF-BiPAC-Mamba vs HMBCNN-style,HMBCNN-style,S6,Event accuracy,300,90.333333,83.0,7.333333,2.0,12.666667,46,24,0.011526409654363481,5000,seed+class
+RAAF-BiPAC-Mamba vs HMBCNN-style,HMBCNN-style,S6,Event macro-F1,300,90.548616,83.510775,7.037841,1.871767,12.166908,,,,5000,seed+class
+RAAF-BiPAC-Mamba vs Plain Mamba,Plain Mamba,Avg7,Event accuracy,2100,93.428571,88.190476,5.238095,3.619048,6.857143,222,112,1.768550462437525e-09,5000,seed+scenario+class
+RAAF-BiPAC-Mamba vs Plain Mamba,Plain Mamba,Avg7,Event macro-F1,2100,93.587922,88.408117,5.179805,3.607282,6.742795,,,,5000,seed+scenario+class
+RAAF-BiPAC-Mamba vs Plain Mamba,Plain Mamba,S6,Event accuracy,300,90.333333,83.666667,6.666667,1.333333,12.0,44,24,0.02052693371370707,5000,seed+class
+RAAF-BiPAC-Mamba vs Plain Mamba,Plain Mamba,S6,Event macro-F1,300,90.548616,84.138859,6.409757,1.322596,11.629318,,,,5000,seed+class
+RAAF-BiPAC-Mamba vs Bi-Mamba,Bi-Mamba,Avg7,Event accuracy,2100,93.428571,89.714286,3.714286,2.095238,5.333333,200,122,1.626715683581512e-05,5000,seed+scenario+class
+RAAF-BiPAC-Mamba vs Bi-Mamba,Bi-Mamba,Avg7,Event macro-F1,2100,93.587922,89.902281,3.685641,2.105818,5.267022,,,,5000,seed+scenario+class
+RAAF-BiPAC-Mamba vs Bi-Mamba,Bi-Mamba,S6,Event accuracy,300,90.333333,86.333333,4.0,-0.666667,8.675,34,22,0.14089542359848076,5000,seed+class
+RAAF-BiPAC-Mamba vs Bi-Mamba,Bi-Mamba,S6,Event macro-F1,300,90.548616,86.491718,4.056898,-0.477469,8.797036,,,,5000,seed+class

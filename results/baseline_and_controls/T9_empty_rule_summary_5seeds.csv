@@ -1,0 +1,4 @@
+﻿protocol,variant,Avg_or_AvgLONSO_acc_mean,acc_sd,acc_ci_low,acc_ci_high,S6_or_mixed_minus6_acc_mean,s6_sd,s6_ci_low,s6_ci_high,Avg_or_AvgLONSO_f1_mean,f1_sd,f1_ci_low,f1_ci_high,S6_or_mixed_minus6_f1_mean,s6_f1_sd,s6_f1_ci_low,s6_f1_ci_high,n_seeds,CI_method
+event_disjoint,empty_unconstrained_pac_grl,93.52,0.72,92.63,94.42,90.67,1.49,88.82,92.52,93.62,0.72,92.73,94.5,90.81,1.5,88.96,92.67,5,t(4)=2.776
+group_lonso,empty_unconstrained_pac_grl,85.52,0.93,84.37,86.68,79.33,1.49,77.48,81.18,85.56,1.02,84.29,86.82,79.5,1.71,77.38,81.62,5,t(4)=2.776
+heldout_overlay,empty_unconstrained_pac_grl,90.67,0.46,90.09,91.24,85.33,1.83,83.07,87.6,90.68,0.42,90.16,91.2,85.5,1.8,83.27,87.73,5,t(4)=2.776
