@@ -1,6 +1,6 @@
 {
   "dataset_name": "RAAF-BiPAC-Mamba public reproducibility sample",
-  "public_release_scope": "representative controlled-platform clean events plus reproducibility artifacts; not the complete raw field dataset",
+  "public_release_scope": "representative one-quarter subset of de-identified real measured clean controlled-platform events plus reproducibility artifacts; not the complete raw field dataset",
   "classes": [
     "coal",
     "gangue",
@@ -13,12 +13,24 @@
   "clean_event_rows": 20000,
   "clean_windows_per_event": 18,
   "clean_event_counts": {
+    "coal": 12,
+    "gangue": 14,
+    "empty": 11,
+    "total": 37
+  },
+  "clean_window_counts": {
+    "coal": 216,
+    "gangue": 252,
+    "empty": 198,
+    "total": 666
+  },
+  "manuscript_clean_event_counts": {
     "coal": 49,
     "gangue": 57,
     "empty": 42,
     "total": 148
   },
-  "clean_window_counts": {
+  "manuscript_clean_window_counts": {
     "coal": 882,
     "gangue": 1026,
     "empty": 756,
@@ -83,7 +95,6 @@
   "notes": [
     "The full raw equipment-noise recordings are restricted and are not included in this public package.",
     "Released prediction CSVs and validation reports support metric reconstruction for the manuscript tables.",
-    "The clean public sample demonstrates file format, windowing, class labels, and split logic."
+    "The released clean-event files are a representative subset for file format, windowing, class labels, and split-logic evidence."
   ]
 }
-

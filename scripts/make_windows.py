@@ -36,7 +36,7 @@ def parse_args() -> argparse.Namespace:
 def count_rows_and_channels(path: Path) -> tuple[int, int]:
     rows = 0
     channels = None
-    with path.open("r", encoding="utf-8", errors="replace") as handle:
+    with path.open("r", encoding="utf-8-sig", errors="replace") as handle:
         for line in handle:
             stripped = line.strip()
             if not stripped:
@@ -128,4 +128,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
