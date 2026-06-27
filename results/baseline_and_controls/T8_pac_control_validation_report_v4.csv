@@ -18,7 +18,7 @@ CI_uses_t4_2_776,True,t(4)=2.776
 PAC_GRL_full_event_disjoint_row_value_mismatch_vs_T6,True,0
 PAC_GRL_full_event_disjoint_eventset_mismatch_vs_T6,True,0
 PAC_GRL_full_event_disjoint_split_hash_mismatch_vs_T6,True,0
-T6_source_file,True,/mnt/data/t6_complete_math_results/event_predictions_9models_10seeds_complete.csv
+T6_source_file,True,results/baseline_and_controls/event_predictions_9models_10seeds_complete.csv
 T6_source_seeds42_46_Avg7_S6,True,93.62/91.33
 event_disjoint_full_above_pac_grl,True,"full=93.62, pac=90.67, grl=92.48"
 event_disjoint_shuffled_below_full,True,"shuffled=84.29, full=93.62"

@@ -13,4 +13,4 @@ argmax_errors,True,0
 paired_event_id_sets_by_seed,True,0
 paired_split_hash_by_seed_event,True,0
 confusion_matrix_closure,True,0
-source_T8_group_lonso_S6_rows,True,/mnt/data/t8_pac_controls_package_v4_frozen_aligned/T8_pac_control_event_predictions_v4_frozen_aligned.csv
+source_T8_group_lonso_S6_rows,True,results/baseline_and_controls/T8_pac_control_event_predictions_v4_frozen_aligned.csv
