@@ -1,4 +1,4 @@
-﻿check,passed,value
+check,passed,value
 roughness_value_row_count,True,13300
 threshold_row_count,True,100
 manifest_row_count,True,1
@@ -10,7 +10,7 @@ roughness_finite_values,True,0
 class_values,True,0
 train_test_group_counts_and_overlap,True,0
 threshold_source_partition_train_only,True,0
-threshold_formula_max_error,True,0.00e+00
+threshold_formula_max_error,True,4.95e-11
 collapse_frequency,True,0/100
 test_event_id_and_split_hash_align_with_T8,True,0
-train_threshold_gap_positive,True,"bad=0, min_gap=0.3687"
+train_threshold_gap_positive,True,"bad=0, min_gap=0.4157"
