@@ -1,0 +1,2 @@
+# Preserve public sample-data bytes for SHA256 manifest validation.
+data_sample/clean_events/**/*.txt -text
